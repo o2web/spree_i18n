@@ -1,4 +1,6 @@
 fr:
+  routes:
+    products: produits
   date:
     abbr_day_names:
       - dim

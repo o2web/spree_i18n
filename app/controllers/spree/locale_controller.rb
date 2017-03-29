@@ -1,5 +1,9 @@
 module Spree
   class LocaleController < Spree::StoreController
+    def index
+      render :index, layout: false
+    end
+
     def set
       session[:locale] = params[:locale]
 
